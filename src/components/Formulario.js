@@ -26,7 +26,7 @@ const agregarGasto = e => {
         cantidad,
         id: shortid.generate()
     }
-    console.log(gasto);
+   
 
     // Pasar el gasto al componente principal
     guardarGasto(gasto);
